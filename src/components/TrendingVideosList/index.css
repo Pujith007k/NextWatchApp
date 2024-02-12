@@ -1,0 +1,41 @@
+.trendingList {
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  height: 400px;
+  width: 70vw;
+}
+.trendingImage {
+  height: 300px;
+  width: 500px;
+}
+.trendingDetails {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.trendingHeading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 22px;
+}
+.trendingParagraph {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.trendingCount_date {
+  display: flex;
+  align-items: center;
+}
+.trendingCount {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.trendingDate {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.Trending-item-link {
+  text-decoration: none;
+}

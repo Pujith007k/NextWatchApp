@@ -1,0 +1,25 @@
+.gamingList {
+  list-style-type: none;
+  height: 500px;
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
+.gamingImage {
+  height: 500px;
+  width: 280px;
+}
+.gamingHeading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 22px;
+}
+.gamingParagraph {
+  color: #606060;
+  font-family: 'Roboto';
+}
+.gaming-item-link {
+  text-decoration: none;
+}

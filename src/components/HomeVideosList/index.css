@@ -1,0 +1,48 @@
+.HomeVideosList {
+  list-style-type: none;
+  height: auto;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  margin: 10px;
+}
+.ThumbnailImage {
+  height: 300px;
+  width: 300px;
+}
+.profileAndDetailsBg {
+  display: flex;
+}
+.profileImage {
+  height: 50px;
+  width: 50px;
+  margin: 15px;
+}
+.detailsContainer {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  color: #1e293b;
+  font-family: 'Roboto';
+}
+.channelName {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.userViews {
+  display: flex;
+  align-items: center;
+}
+.views {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.date {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.item-link {
+  text-decoration: none;
+}

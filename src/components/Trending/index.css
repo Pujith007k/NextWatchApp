@@ -1,0 +1,60 @@
+.trendingBgContainer {
+  display: flex;
+}
+.trendingVideoContainer {
+  display: flex;
+  flex-direction: column;
+  overflow: scroll;
+  height: 100vh;
+  width: 80vw;
+}
+.trendingNavbar {
+  height: 70px;
+  width: 80vw;
+  background-color: #cccccc;
+  display: flex;
+  align-items: center;
+}
+.trendingIcon {
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+}
+.trendingHeading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.unOrderedTrendingList {
+  display: flex;
+  flex-direction: column;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failImage {
+  height: 400px;
+  width: 400px;
+}
+.failHeading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.failParagraph {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.failButton {
+  height: 40px;
+  width: 130px;
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #4f46e5;
+  border-radius: 10px;
+}

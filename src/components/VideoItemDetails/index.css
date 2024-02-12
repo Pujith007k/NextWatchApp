@@ -1,0 +1,122 @@
+.videoPlayerBgContainer {
+  display: flex;
+}
+.videoPlayerContainer {
+  display: flex;
+  flex-direction: column;
+}
+.playerTitle {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: bolder;
+  font-size: 22px;
+}
+.playerIcons {
+  display: flex;
+  justify-content: space-between;
+}
+.playerCount_Date {
+  display: flex;
+}
+.playerCount {
+  color: #616e7c;
+}
+.playerDate {
+  color: #616e7c;
+  margin-left: 5px;
+}
+.playerIconsContainer {
+  display: flex;
+}
+.likeContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  color: #64748b;
+}
+.likeColorContainer {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  color: #2563eb;
+}
+.likeIcon {
+  height: 25px;
+  width: 25px;
+  margin: 5px;
+}
+.likebutton {
+  height: 40px;
+  width: 50px;
+  background-color: transparent;
+  color: #64748b;
+  border-width: 0px;
+}
+.likeColorbutton {
+  height: 40px;
+  width: 50px;
+  background-color: transparent;
+  color: #2563eb;
+  border-width: 0px;
+}
+.playerLine {
+  width: 78vw;
+  color: #000000;
+}
+.playerVideoDetails {
+  display: flex;
+}
+.playerprofile {
+  height: 50px;
+  width: 50px;
+}
+.playerChannelDetails {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.channelName {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.channelCount {
+  color: #616e7c;
+  font-family: 'Roboto';
+}
+.channelDescription {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.dotColor {
+  color: #000000;
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failImage {
+  height: 400px;
+  width: 400px;
+}
+.failHeading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.failParagraph {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
+.failButton {
+  height: 40px;
+  width: 130px;
+  color: #ffffff;
+  border-width: 0px;
+  background-color: #4f46e5;
+  border-radius: 10px;
+}

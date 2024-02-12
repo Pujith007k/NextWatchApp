@@ -1,0 +1,21 @@
+.savedBgContainer {
+  display: flex;
+}
+.noSavedContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.noSavedImage {
+  height: 400px;
+  width: 400px;
+}
+.noSavedHeading {
+  color: #000000;
+  font-family: 'Roboto';
+}
+.noSavedParagraph {
+  color: #94a3b8;
+  font-family: 'Roboto';
+}
